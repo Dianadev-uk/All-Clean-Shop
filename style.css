@@ -74,6 +74,13 @@ main {
     grid-column: span 1;
 }
 
+#clearfilters {
+    background-color: rgb(179, 170, 170);
+    margin: 30px;
+    
+    border-radius: 4px;
+}
+
 .flex-container {
     display: flex;
     justify-content: flex-start;
@@ -181,12 +188,12 @@ footer > p {
 }
 @media screen and (max-width: 800px) {
     body {
-        flex-direction: row;
         background-color: rgb(243, 241, 239);
+        flex-direction: row;
     }
 }
 
-@media screen and (max-width) {
+@media screen and (max-width: 1200px) {
     body {
         flex-direction: row;
         
